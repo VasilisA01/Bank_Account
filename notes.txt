@@ -1,0 +1,12 @@
+Bank Account(OOP):
+
+attributes:
+owner_name
+account_number
+balance
+
+methods:
+deposit(amount)
+withdraw(amount)
+get_balance()
+
