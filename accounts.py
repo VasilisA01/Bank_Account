@@ -2,6 +2,7 @@ from Bank_Account_2 import BankAccount
 import csv
 import pandas as pd
 import os
+import time
 
 
 accounts = {}
@@ -84,3 +85,6 @@ with open("account_DB.csv", "w" ) as f:
 df = pd.read_csv("account_DB.csv")
 print(df)   
 print(acc_list,"    Accounts: ",len(acc_list))
+
+print("/nExiting in 7 seconds...")
+time.sleep(7)
